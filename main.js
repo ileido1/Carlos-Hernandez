@@ -23,5 +23,12 @@ $(document).ready(function(){
       $('nav').removeClass('black');
     }
   }
-	}); 
+	});
+                    $("#form").validate({
+                      rules: {
+                            nombre:{
+                            required: true
+                        }
+                      }
+                    }); 
   });
